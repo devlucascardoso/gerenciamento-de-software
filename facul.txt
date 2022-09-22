@@ -1,0 +1,257 @@
+UNIDADE 1
+
+Projetos -> estão relacionados a algo novo, com início e fim definidos. 
+processos -> ocorrem de maneira contínua, normalmente estabelecidos quando um projeto é concluído.
+Essas fases organizadas formam o Ciclo de Vida do projeto que serve para definir o início e fim de um projeto, definindo qual atividade que deve ser realizado em cada fase e quem deve ser envolvido.
+
+O Gerenciamento de Projetos de Software é uma atividade de apoio da 
+Engenharia de Software, pois ele inicia antes de qualquer atividade técnica e prossegue ao longo da modelagem, construção e utilização do software. 
+Gerenciar projetos é importante quando temos que desenvolver um sistema complexo, compartilhar recursos, controlar prazos e custos para que o sistema seja confiável e instável
+
+Um bom caminho, é antes de iniciar qualquer projeto de software, conhecer a regra de negócios, ferramentas e recursos que poderão ser utilizados. Logo 
+em seguida, desenvolver um bom plano de Gerenciamento de Projeto, informando 
+como serão tratados os requisitos, pontos de gestão e seus relacionamentos, recursos e processos empregados durante o desenvolvimento do software.
+
+
+#####
+Assim, após os Requisitos de Software terem sido especificados e modelados é 
+iniciada a primeira atividade, o Projeto de Software, onde é definido como ele será 
+construído, sua arquitetura, interfaces, componentes que poderão ser utilizados 
+e outras características que podem ser determinantes para se gerar um software.
+Conforme Pressman (2016, p. 206), é na fase de requisitos que é convertido o “que” é para ser feito e detalhado e na fase de projeto é indicado o “como” 
+deverá ser o desenvolvimento, fornecendo detalhes da arquitetura e os componentes essenciais para a implementação do sistema. O profissional responsável 
+por essa fase é conhecido como o Arquiteto de Software, que possui experiência 
+como programador e possui amplos conhecimentos sobre a Gerência de Projetos.
+#####
+
+
+Gerenciamento de Projetos (PMI e PMBOK) x Gerenciamento ÁGIL de Projetos
+
+PMI
+o PMI é uma entidade internacional sem fins lucrativos que congrega os profissionais de 
+áreas relacionadas a Gerência de 
+Projetos.O PMI não apresenta regras e sim melhores práticas.O PMI define um conjunto de procedimentos que ajudam a promover e 
+padronizar as teorias que estão ligadas ao gerenciamento de projetos. E essas teorias padronizadas estão registradas no documento chamado PMBOK
+
+
+PMBOK
+É um guia que reúne as informações comprovadas internacionalmente sobre o conhecimento relacionado a práticas 
+tradicionais, inovadores e mais avançadas de gestão de projetos. Além disso, o 
+PMBOK é um guia de padronização de termos que são utilizados na área de 
+gerência de projetos. 
+de acordo com o PMBOK, os processos de 
+gerência de projetos se resumem: 
+Processos de Iniciação, planejamento, execução, controle e finalização. Cada um desses processos se refere a um aspecto a ser considerado dentro da gerência de projetos. areas que compoem o modelo PMBOK: Qualidade. Recusros Humanos. Escopo. Aquisições. Integração. Comunicações. Custo. Riscos. Tempo.
+
+x
+
+APM (Gerenciamento Ágil de Projetos)
+o gerenciamento ágil de projetos é uma abordagem fundamentada 
+em um conjunto de princípios, cujo objetivo é tornar o processo de 
+gerenciamento de projetos mais simples, flexível e iterativo, de forma a 
+obter melhores resultados em desempenho (tempo, custo e qualidade), 
+menor esforço em gerenciamento e maiores níveis de inovação e agregação de valor ao cliente.
+
+Uma das características da metodologia ágil que mais atrai, é a habilidade em se reduzir os custos das alterações que podem ocorrer em um processo de software.
+Como os métodos ágeis reduzem o custo das alterações? Porque o software é liberado de forma incremental, fazendo com que as alterações passem a ser 
+mais controladas.
+
+Conforme Pressman (2016), para ser aplicado o desenvolvimento ágil, é 
+essencial que: 
+■ Seja projetado de forma que a equipe se alinhe e se adapte às tarefas.
+■ Que o planejamento possa ser conduzido com fluidez da metodologia de 
+desenvolvimento ágil.
+■ Que possa eliminar tudo, menos os artefatos considerados essenciais.
+■ Enfatizar a estratégia de entrega incremental.
+■ Software operacional para o tipo de produto e ambiente.
+
+
+
+@Práticas do Gerenciamento de Software
+Modelos(cronograma, orçamento, diagramas)
+
+1. Pessoas
+2. Equipe de Software
+3. A modelagem
+4. Diagramas
+5. Cronograma
+6. Métricas no auxílio do Gestão do Projeto
+-> tipos de metricas (custo, tempo de implementação, defeitos no produto liberado, qualidade subjetiva, medidas de melhoria, capacidade tecnológica)
+
+
+UNIDADE 2 - MODELOS DE DESENVOLVIMENTO DE SOFTWARE
+(UP, XP, FDD, DSDM, ICONIX PROCESS)
+
+@PROCESSO UNIFICADO (UP) ou RUP NÃO ÁGIL
+O Processo Unificado (PU) surgiu para realizar o desenvolvimento de software visando a construção de sistemas orientados a objetos. Este modelo de desenvolvimento de software é iterativo e adaptativo, desta forma consegue produzir um sistema de grande porte como se fossem vários pequenos sistemas, o que diminui o risco do projeto.
+
+Ele é baseado em componentes, o que significa o sistema ser construído a partir de componentes de software interconectados via interfaces muito bem definidas. O processo unificado utiliza a Linguagem de Modelagem Unificada (Unified Modeling Language – UML) no preparo de todos os artefatos do sistema.
+
+cliclo de desenvolvimento
+Fase de concepção | fase de elaboração | fase de construção | fase de transição | fase de produção
+
+
+@EXTREME PROGRAMMING (XP) metodologia agil
+A metodologia XP tem como meta atender as necessidades dos clientes, com 
+mais qualidade, com mais rapidez e de forma simples.
+A XP utiliza um modelo incremental, que, conforme o sistema é utilizado, 
+novas melhorias ou mudanças podem ser implementadas. Com isso, o cliente 
+sempre tem um sistema que pode utilizar e testar e avaliar se o que foi proposto 
+foi desenvolvido corretamente.
+
+Caracteristicas marcantes
+>comunicação 
+>simplicidade 
+>feedback 
+>coragem 
+>respeito
+
+metodologias usada
+>Planejamento
+>Projeto(Designing)
+>Codificação
+>Testes
+
+
+@FDD - FEATURE DRIVEN DEVELOPMENT metodologia agil
+desenvolvimento dirigido por funcionalidades
+
+características
+■ Iterativo.
+■ Blocos pequenos de funcionalidades apreciadas pelo envolvidos, chamados “Features”.
+■ Enfatiza a qualidade.
+■ Rastreabilidade e relatórios com mais precisão.
+■ Entrega resultados tangíveis e frequentes.
+
+>Processos do FDD
+■ Concepção e Planejamento: fase para pensar um pouco antes de fazer 
+(tempo estimado de 1 a 2 semanas).
+■ Construção: fase para fazer de forma iterativa (tempo de iterações de 2 
+semanas).
+
+Desenvolver um Modelo Abrangente/Geral
+Construir a Lista de Features
+Planejar por Features 
+Detalhar por Features 
+Construir por Features
+
+@DSDM - DYNAMIC SYSTEMS DEVELOPMENT METHODOLOGY metodologia agil de apio ao desenv. de soft
+principal caracteristica: timeboxing + prototipagem
+
+princípios:
+1. Participação ativa dos usuários e stakeholders.
+2. Abordagem cooperativa e compartilhada.
+3. Equipes com poder de decisão
+4. Entregas contínuas que fazem a diferença.
+5. Desenvolvimento iterativo e incremental.
+6. Feedback.
+7. Todas as possíveis alterações durante o desenvolvimento devem ser reversíveis.
+8. Fixar os requisitos essenciais.
+9. Teste em todo Ciclo de Vida
+
+*pré-projeto > estudo de viabilidade e estudo de negócio > Modelo Funcional > Projeto e construção > Implementação > *Pós-projeto
+
+@ICONIX PROCESS metodologia ágil
+semelhante ao rup + diagramas UML
+modelagem dirigado por casos de uso e que tem como objetivo estudar e comunicar o comportamento do sistema sob o ponto de vista do usuario final.
+
+metodologia: 
+Dinâmica: apresenta os aspectos comportamentais do software, a interação 
+do usuário com o sistema. Os artefatos usados são: Diagrama de Caso de Uso, 
+Diagrama de Robustez e Diagrama de Sequência.
+
+Estática: apresenta os aspectos estruturais do software, mostrando o funcionamento do sistema sem nenhum dinamismo e interação do usuário. Os artefatos 
+usados são: Modelo de Domínio e Diagrama de Classe. 
+
+Diagrama de Robustez é um gráfico híbrido entre o Diagrama de Classes 
+e o Diagrama de Atividades da UML. E possui três tipos de estereótipos: objetos de fronteira/interface (Boundary), objetos de Entidade (Entity) e objetos de 
+Controle (Control), conforme imagem a seguir
+
+>Estrutura do Iconix process
+Análise de requisitos 
+Análise e desenho preliminar
+Desenho
+Implementação
+
+
+UNIDADE 3 - GERENCIAMENTO ÁGIL DE SOFTWARE
+
+#VISÃO GERAL DO SCRUM
+Scrum é uma metodologia para desenvolver e manter produtos complexos. Uma metodologia ágil de software que concentra as atenções no 
+produto final e estrutura seu funcionamento por ciclos chamados de SPRINTS com um rápido desenvolvimento e nas interações dos indivíduos.  requsitos > analise > projeto > evolução > entrega
+
+#SPRINTS
+As sprints (corrida de velocidade de curta distância) representam iterações de trabalho com duração variável, geralmente de duas a quatro semanas e estabelecem um conjunto de práticas e regras que devem ser cumpridas pela equipe que decidem quantas tarefas serão capazes de executar em duas semanas.
+
+#PAPÉIS NO SCRUM(3)
+■Product Owner
+Levantar os requisitos para o Product Backlog. 
+Colabora com o Scrum Master e com a Team para os planejamentos dos Sprints.
+Guia a equipe para alcançar as metas do planejamento de releases e sprints. 
+Acompanha o desenvolvimento do projeto.
+Decide as datas de lançamento do produto. 
+
+■Scrum Master 
+O Scrum Master não é o líder da equipe, ele preocupa-se com o uso correto do processo SCRUM e a aplicação das suas práticas. 
+Atua na definição de funcionalidades de acordo com seu valor para o cliente, planejando e elaborando em conjunto com o Product Owner uma lista de prioridades. 
+O Scrum Master desempenha um papel mais de responsabilidade técnica na condução do projeto e protege a equipe, mantendo ela focada nas tarefas. para mantendo ela nas suas tarefas.
+
+■Team
+Responsável por fazer as estimativas necessárias.
+Transforma itens do Product Backlog em tarefas.
+Apresenta o produto ao cliente.
+Deve ser auto-organizada e multidisciplinar.
+
+#CERIMÔNIAS DO SCRUM(4)
+■SPRINT PLANNING OU PLANEJAMENTO DA SPRINT
+é a primeira reunião do projeto com a participação de todos em que o Product Owner planeja e elabora a lista de prioridades a serem cumpridas no projeto.
+
+■DAILY MEETING OU DAILY SCRUM OU REUNIÃO DIÁRIA
+reunião em que cada membro responde sobre: ■ o que já fez, o que pretende fazer e se tem algum impedimento e quem participa são o Scrum Master e o Team.
+
+■SPRINT REVIEW OU REVISÃO DA SPRINT
+é uma reunião de balanço sobre tudo o que foi feito durante uma print. Nessa reunião o time deve mostrar os resultados da sprint para o Product Owner e seus convidados.
+
+■SPRINT RETROSPECTIVE OU RETROSPECTIVA DA SPRINT
+reunião com o objetivo de verificar o que houve de bom e o que pode a vir ser melhorado em uma próxima sprint.
+
+#ARTEFATOS DO SCRUM (3)
+a partir das cerimônias são gerados os artefatos.
+
+■PRODUCT BACKLOG
+é uma lista de funcionalidades com prioridades que é feita no início do projeto com o objetivo de esclarecer o que deve ser entregue ao cliente.
+
+■SPRINT BACKLOG
+representa todas as tarefas que devem ser desenvolvidas durante uma 
+Sprint ou iteração.
+
+■BURNDOWN CHART
+mostrar o esforço restante para a conclusão da iteração. Com ele é possível verificar a estimativa inicial.
+
+
+UNIDADE 4 - DESENVOLVIMENTO ÁGIL DE SOFTWARE
+---
+
+UNIDADE 5 - OUTRAS METODOLOGIAS ÁGEIS
+
+#OpenUp (Processo Unificado Aberto)
+Nosso estudo se inicia com a metodologia OpenUp (Processo Unificado 
+Aberto) possui uma abordagem iterativa e incremental para conduzir os projetos de desenvolvimento de software. A sua qualidade é com base o modelo RUP, 
+a agilidade da metodologia XP e usa as melhores práticas de gerenciamento do 
+método Scrum.
+
+#Metodologia Crystal
+A metodologia Crystal é dividida em cores, onde quanto mais escuro mais complexo e crítico será o sistema a 
+ser desenvolvido. Esta metodologia atende diferentes tipos e tamanhos de projeto
+
+#TDD
+uma técnica de desenvolvimento orientada a testes, considerada uma metodologia de desenvolvimento de software ágil derivada da metodologia XP e do 
+Agile Manifesto
+
+
+#LEAN SOFTWARE DEVELOPMENT (LD)
+que tem como foco a eliminação de desperdícios, a excelência na qualidade e a velocidade dos processos.
+
+#KanBan
+que é considerado uma ferramenta visual que ajuda no 
+acompanhamento do fluxo de trabalho e do controle do trabalho em progresso. 
