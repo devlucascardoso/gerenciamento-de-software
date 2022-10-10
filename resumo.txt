@@ -2,7 +2,7 @@ UNIDADE 1
 
 Projetos -> estão relacionados a algo novo, com início e fim definidos. 
 processos -> ocorrem de maneira contínua, normalmente estabelecidos quando um projeto é concluído.
-Essas fases organizadas formam o Ciclo de Vida do projeto que serve para definir o início e fim de um projeto, definindo qual atividade que deve ser realizado em cada fase e quem deve ser envolvido.
+Essas fases organizadas formam o Ciclo de Vida do projeto que serve para definir o início e fim de um projeto, definindo qual atividade que deve ser realizado em cada fase e quem deve ser envolvido.
 
 O Gerenciamento de Projetos de Software é uma atividade de apoio da 
 Engenharia de Software, pois ele inicia antes de qualquer atividade técnica e prossegue ao longo da modelagem, construção e utilização do software. 
@@ -50,7 +50,7 @@ o gerenciamento ágil de projetos é uma abordagem fundamentada
 em um conjunto de princípios, cujo objetivo é tornar o processo de 
 gerenciamento de projetos mais simples, flexível e iterativo, de forma a 
 obter melhores resultados em desempenho (tempo, custo e qualidade), 
-menor esforço em gerenciamento e maiores níveis de inovação e agregação de valor ao cliente.
+menor esforço em gerenciamento e maiores níveis de inovação e agregação de valor ao cliente.
 
 Uma das características da metodologia ágil que mais atrai, é a habilidade em se reduzir os custos das alterações que podem ocorrer em um processo de software.
 Como os métodos ágeis reduzem o custo das alterações? Porque o software é liberado de forma incremental, fazendo com que as alterações passem a ser 
@@ -145,11 +145,11 @@ princípios:
 4. Entregas contínuas que fazem a diferença.
 5. Desenvolvimento iterativo e incremental.
 6. Feedback.
-7. Todas as possíveis alterações durante o desenvolvimento devem ser reversíveis.
+7. Todas as possíveis alterações durante o desenvolvimento devem ser reversíveis.
 8. Fixar os requisitos essenciais.
 9. Teste em todo Ciclo de Vida
 
-*pré-projeto > estudo de viabilidade e estudo de negócio > Modelo Funcional > Projeto e construção > Implementação > *Pós-projeto
+pré-projeto > estudo de viabilidade e estudo de negócio > Modelo Funcional > Projeto e construção > Implementação > Pós-projeto
 
 @ICONIX PROCESS metodologia ágil
 semelhante ao rup + diagramas UML
@@ -160,11 +160,11 @@ Dinâmica: apresenta os aspectos comportamentais do software, a interação
 do usuário com o sistema. Os artefatos usados são: Diagrama de Caso de Uso, 
 Diagrama de Robustez e Diagrama de Sequência.
 
-Estática: apresenta os aspectos estruturais do software, mostrando o funcionamento do sistema sem nenhum dinamismo e interação do usuário. Os artefatos 
+Estática: apresenta os aspectos estruturais do software, mostrando o funcionamento do sistema sem nenhum dinamismo e interação do usuário. Os artefatos 
 usados são: Modelo de Domínio e Diagrama de Classe. 
 
 Diagrama de Robustez é um gráfico híbrido entre o Diagrama de Classes 
-e o Diagrama de Atividades da UML. E possui três tipos de estereótipos: objetos de fronteira/interface (Boundary), objetos de Entidade (Entity) e objetos de 
+e o Diagrama de Atividades da UML. E possui três tipos de estereótipos: objetos de fronteira/interface (Boundary), objetos de Entidade (Entity) e objetos de 
 Controle (Control), conforme imagem a seguir
 
 >Estrutura do Iconix process
@@ -177,7 +177,7 @@ Implementação
 UNIDADE 3 - GERENCIAMENTO ÁGIL DE SOFTWARE
 
 #VISÃO GERAL DO SCRUM
-Scrum é uma metodologia para desenvolver e manter produtos complexos. Uma metodologia ágil de software que concentra as atenções no 
+Scrum é uma metodologia para desenvolver e manter produtos complexos. Uma metodologia ágil de software que concentra as atenções no 
 produto final e estrutura seu funcionamento por ciclos chamados de SPRINTS com um rápido desenvolvimento e nas interações dos indivíduos.  requsitos > analise > projeto > evolução > entrega
 
 #SPRINTS
@@ -194,7 +194,7 @@ Decide as datas de lançamento do produto.
 ■Scrum Master 
 O Scrum Master não é o líder da equipe, ele preocupa-se com o uso correto do processo SCRUM e a aplicação das suas práticas. 
 Atua na definição de funcionalidades de acordo com seu valor para o cliente, planejando e elaborando em conjunto com o Product Owner uma lista de prioridades. 
-O Scrum Master desempenha um papel mais de responsabilidade técnica na condução do projeto e protege a equipe, mantendo ela focada nas tarefas. para mantendo ela nas suas tarefas.
+O Scrum Master desempenha um papel mais de responsabilidade técnica na condução do projeto e protege a equipe, mantendo ela focada nas tarefas. para mantendo ela nas suas tarefas.
 
 ■Team
 Responsável por fazer as estimativas necessárias.
@@ -207,7 +207,7 @@ Deve ser auto-organizada e multidisciplinar.
 é a primeira reunião do projeto com a participação de todos em que o Product Owner planeja e elabora a lista de prioridades a serem cumpridas no projeto.
 
 ■DAILY MEETING OU DAILY SCRUM OU REUNIÃO DIÁRIA
-reunião em que cada membro responde sobre: ■ o que já fez, o que pretende fazer e se tem algum impedimento e quem participa são o Scrum Master e o Team.
+reunião em que cada membro responde sobre: ■ o que já fez, o que pretende fazer e se tem algum impedimento e quem participa são o Scrum Master e o Team.
 
 ■SPRINT REVIEW OU REVISÃO DA SPRINT
 é uma reunião de balanço sobre tudo o que foi feito durante uma print. Nessa reunião o time deve mostrar os resultados da sprint para o Product Owner e seus convidados.
@@ -236,12 +236,12 @@ UNIDADE 5 - OUTRAS METODOLOGIAS ÁGEIS
 
 #OpenUp (Processo Unificado Aberto)
 Nosso estudo se inicia com a metodologia OpenUp (Processo Unificado 
-Aberto) possui uma abordagem iterativa e incremental para conduzir os projetos de desenvolvimento de software. A sua qualidade é com base o modelo RUP, 
+Aberto) possui uma abordagem iterativa e incremental para conduzir os projetos de desenvolvimento de software. A sua qualidade é com base o modelo RUP, 
 a agilidade da metodologia XP e usa as melhores práticas de gerenciamento do 
 método Scrum.
 
 #Metodologia Crystal
-A metodologia Crystal é dividida em cores, onde quanto mais escuro mais complexo e crítico será o sistema a 
+A metodologia Crystal é dividida em cores, onde quanto mais escuro mais complexo e crítico será o sistema a 
 ser desenvolvido. Esta metodologia atende diferentes tipos e tamanhos de projeto
 
 #TDD
